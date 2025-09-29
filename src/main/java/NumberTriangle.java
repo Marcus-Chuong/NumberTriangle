@@ -139,7 +139,7 @@ public class NumberTriangle {
             NumberTriangle[] currentRow = new NumberTriangle[numbers.length];
             for (int i = 0; i < numbers.length; i++) {
                 currentRow[i] = new NumberTriangle(Integer.parseInt(numbers[i]));
-                // Set top only for the very first node (first row, first element)
+                // Set top only for the very first node (first row, first element
                 if (top == null) {
                     top = currentRow[i];
                 }
